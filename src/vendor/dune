@@ -171,3 +171,10 @@
    dream.h2
    dream.h2-lwt
    lwt.unix)))
+
+(subdir httpaf-lwt-client/src
+ (library
+  (name httpaf_lwt_client)
+  (public_name dream.httpaf-lwt-client)
+  (libraries faraday-lwt-unix httpaf lwt.unix tls.lwt ca-certs rresult base64
+            logs happy-eyeballs-lwt)))

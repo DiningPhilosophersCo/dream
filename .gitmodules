@@ -14,3 +14,6 @@
 	path = src/vendor/paf
 	url = https://github.com/dinosaure/paf-le-chien.git
 	branch = dream
+[submodule "src/vendor/httpaf-lwt-client"]
+	path = src/vendor/httpaf-lwt-client
+	url = https://github.com/DiningPhilosophersCo/httpaf-lwt-client
